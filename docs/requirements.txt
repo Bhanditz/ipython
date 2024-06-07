@@ -1,3 +1,4 @@
 -e .
 ipykernel
 setuptools>=18.5
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
